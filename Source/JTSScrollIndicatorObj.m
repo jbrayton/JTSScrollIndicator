@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Nice Boy LLC. All rights reserved.
 //
 
-#import "JTSScrollIndicator.h"
+#import "JTSScrollIndicatorObj.h"
 
 static CGFloat JTSScrollIndicator_IndicatorWidth = 2.5f;
 static CGFloat JTSScrollIndicator_MinIndicatorHeightWhenCompressed = 8.0f;

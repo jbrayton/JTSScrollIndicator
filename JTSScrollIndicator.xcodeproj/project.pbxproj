@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2153FE111F0194A500A352A1 /* JTSScrollIndicatorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2153FE0F1F0194A500A352A1 /* JTSScrollIndicatorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2153FE191F01950A00A352A1 /* JTSScrollIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2153FE171F01950A00A352A1 /* JTSScrollIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2153FE1A1F01950A00A352A1 /* JTSScrollIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2153FE181F01950A00A352A1 /* JTSScrollIndicator.m */; };
+		2153FE111F0194A500A352A1 /* JTSScrollIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2153FE0F1F0194A500A352A1 /* JTSScrollIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2153FE191F01950A00A352A1 /* JTSScrollIndicatorObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 2153FE171F01950A00A352A1 /* JTSScrollIndicatorObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2153FE1A1F01950A00A352A1 /* JTSScrollIndicatorObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 2153FE181F01950A00A352A1 /* JTSScrollIndicatorObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2153FE0C1F0194A500A352A1 /* JTSScrollIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTSScrollIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2153FE0F1F0194A500A352A1 /* JTSScrollIndicatorFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTSScrollIndicatorFramework.h; sourceTree = "<group>"; };
+		2153FE0F1F0194A500A352A1 /* JTSScrollIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTSScrollIndicator.h; sourceTree = "<group>"; };
 		2153FE101F0194A500A352A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2153FE171F01950A00A352A1 /* JTSScrollIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSScrollIndicator.h; path = Source/JTSScrollIndicator.h; sourceTree = SOURCE_ROOT; };
-		2153FE181F01950A00A352A1 /* JTSScrollIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSScrollIndicator.m; path = Source/JTSScrollIndicator.m; sourceTree = SOURCE_ROOT; };
+		2153FE171F01950A00A352A1 /* JTSScrollIndicatorObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSScrollIndicatorObj.h; path = Source/JTSScrollIndicatorObj.h; sourceTree = SOURCE_ROOT; };
+		2153FE181F01950A00A352A1 /* JTSScrollIndicatorObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSScrollIndicatorObj.m; path = Source/JTSScrollIndicatorObj.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +50,9 @@
 		2153FE0E1F0194A500A352A1 /* JTSScrollIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				2153FE0F1F0194A500A352A1 /* JTSScrollIndicatorFramework.h */,
-				2153FE171F01950A00A352A1 /* JTSScrollIndicator.h */,
-				2153FE181F01950A00A352A1 /* JTSScrollIndicator.m */,
+				2153FE0F1F0194A500A352A1 /* JTSScrollIndicator.h */,
+				2153FE171F01950A00A352A1 /* JTSScrollIndicatorObj.h */,
+				2153FE181F01950A00A352A1 /* JTSScrollIndicatorObj.m */,
 				2153FE101F0194A500A352A1 /* Info.plist */,
 			);
 			path = JTSScrollIndicator;
@@ -65,8 +65,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2153FE111F0194A500A352A1 /* JTSScrollIndicatorFramework.h in Headers */,
-				2153FE191F01950A00A352A1 /* JTSScrollIndicator.h in Headers */,
+				2153FE111F0194A500A352A1 /* JTSScrollIndicator.h in Headers */,
+				2153FE191F01950A00A352A1 /* JTSScrollIndicatorObj.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2153FE1A1F01950A00A352A1 /* JTSScrollIndicator.m in Sources */,
+				2153FE1A1F01950A00A352A1 /* JTSScrollIndicatorObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
